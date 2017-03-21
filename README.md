@@ -1,6 +1,8 @@
 # EnviarSMS
 Programa para enviar SMS através de um Celular conectado ao computador por Serial/USB.
 
+<img src="http://is5.com.br/img/enviarsms.png">
+
   ATENÇÃO: Para compilar este programa você precisa instalar a library ComPort,
   encontrada em https://sourceforge.net/projects/comport/
 
