@@ -2,19 +2,19 @@
   EnviarSMS - v0.0.1
   ------------------
 
-  ATENÇÃO: Para compilar este programa você precisa instalar a library ComPort,
+  ATENÃ‡ÃƒO: Para compilar este programa vocÃª precisa instalar a library ComPort,
   encontrada em https://sourceforge.net/projects/comport/
 
-  Este é um exemplo de como enviar SMS através de um Celular conectado ao computador
+  Este Ã© um exemplo de como enviar SMS atravÃ©s de um Celular conectado ao computador
   por uma porta Serial.
 
-  A maioria dos Celulares atualmente, ao ser conecato ao computador pela USB, pode
-  funcionar como um Modem, o que nos permite até mesmo conectar a Internet através dele.
+  A maioria dos Celulares atualmente, ao ser conectado ao computador pela USB, pode
+  funcionar como um Modem, o que nos permite atÃ© mesmo acessar a Internet atravÃ©s dele.
 
-  Se o Celular pode ser reconhecido pelo computador como um Modem, então podemos
-  acessá-lo e controlar suas funções através de comandos AT.
+  Se o Celular pode ser reconhecido pelo computador como um Modem, entÃ£o podemos
+  acessÃ¡-lo e controlar suas funÃ§Ãµes atravÃ©s de comandos AT.
 
-  E é exatamente isso que este exemplo faz :)
+  E Ã© exatamente isso que este exemplo faz :)
 
   Para que o mesmo funcione certifique-se de:
 
@@ -24,9 +24,9 @@
   3. Compile este exemplo sem esquecer de intalar o componente ComPort.
   4. A seguir, rode o programa, especifique a porta, configure a velocidade (115200 para USB)
      digite o telefone e a mensagem e clique em Enviar.
-  5. Se tudo der certo a mensagem será enviada :)
+  5. Se tudo der certo a mensagem serÃ¡ enviada :)
 
-  Dúvidas e sugestões: contato@is5.com.br
+  DÃºvidas e sugestÃµes: contato@is5.com.br
 
   Att,
 
@@ -109,7 +109,7 @@ begin
       MyComPort.WriteStr(#13#10);
 
     finally
-      ShowMessage('Concluído!');
+      ShowMessage('ConcluÃ­do!');
     end;
   except
     on E: Exception do
