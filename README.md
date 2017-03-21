@@ -10,7 +10,7 @@ Programa para enviar SMS através de um Celular conectado ao computador por Seri
   por uma porta Serial.
 
   A maioria dos Celulares atualmente, ao ser conectado ao computador pela USB, pode
-  funcionar como um Modem, o que nos permite até mesmo conectar a Internet através dele.
+  funcionar como um Modem, o que nos permite até mesmo acessar a Internet através dele.
 
   Se o Celular pode ser reconhecido pelo computador como um Modem, então podemos
   acessá-lo e controlar suas funções através de comandos AT.
