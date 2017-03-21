@@ -9,7 +9,7 @@ Programa para enviar SMS através de um Celular conectado ao computador por Seri
   Este é um exemplo de como enviar SMS através de um Celular conectado ao computador
   por uma porta Serial.
 
-  A maioria dos Celulares atualmente, ao ser conecato ao computador pela USB, pode
+  A maioria dos Celulares atualmente, ao ser conectado ao computador pela USB, pode
   funcionar como um Modem, o que nos permite até mesmo conectar a Internet através dele.
 
   Se o Celular pode ser reconhecido pelo computador como um Modem, então podemos
